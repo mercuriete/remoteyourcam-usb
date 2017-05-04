@@ -1,4 +1,4 @@
-package com.remoteyourcam.usb.remoteyourcam_usb_arreglar;
+package com.remoteyourcam.usb;
 
 import org.junit.Test;
 
