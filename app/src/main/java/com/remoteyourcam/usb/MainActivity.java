@@ -134,10 +134,10 @@ public class MainActivity extends SessionActivity implements CameraListener {
 
         ActionBar bar = getActionBar();
 
-        bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        bar.setDisplayHomeAsUpEnabled(false);
-        bar.addTab(bar.newTab().setText("Session").setTabListener(new MyTabListener(new TabletSessionFragment())));
-        bar.addTab(bar.newTab().setText("Gallery").setTabListener(new MyTabListener(new GalleryFragment())));
+        //bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        //bar.setDisplayHomeAsUpEnabled(false);
+        //bar.addTab(bar.newTab().setText("Session").setTabListener(new MyTabListener(new TabletSessionFragment())));
+        //bar.addTab(bar.newTab().setText("Gallery").setTabListener(new MyTabListener(new GalleryFragment())));
 
         int appVersionCode = -1;
         try {
